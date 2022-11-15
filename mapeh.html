@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAPEH - Abpi</title>
+<style>
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+footer {
+	display: inline-block;
+}
+
+.footer_banner {
+	background-color: #B3B3B3;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+	background-image: url(../images/pattern.png);
+	background-repeat: repeat;
+}
+
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+footer .footer_column h3 {
+	color: #B3B3B3;
+	text-align: center;
+}
+footer .footer_column p {
+	color: #717070;
+	background-color: #FFFFFF;
+}
+
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+header {
+	width: 100%;
+	height: 7%;
+	position: fixed;
+	background-color: #52bad5;
+	border-bottom: 1px solid #2C9AB7;
+}
+</style>
+<link href="mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="container"> 
+  <header> <a href="">
+    <h4 class="logo">Padre Pio</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="sip.html">SIP</a></li>
+        <li> <a href="background.html">BACKGROUND</a></li>
+      </ul>
+    </nav>
+  </header>
+	
+  <section class="hero" id="hero">
+    <h2 class="hero_header">Padre <span class="light">Pio</span></h2>
+    <p class="tagline">Home For Children</p>
+  </section>
+  <div class="gallery">
+    <div class="thumbnail">
+      <h1 class="stats">Be </h1>
+      
+    </div>
+    <div class="thumbnail">
+	  <h1 class="stats">Green</h1>
+     
+    </div>
+    <div class="thumbnail">
+	  <h1 class="stats">Give</h1>
+      
+    </div>
+    <div class="thumbnail">
+      <h1 class="stats">Green</h1>
+      
+    </div>
+  </div>
+  <section class="banner">
+    
+	  <iframe class="parallax_media" width="560" height="315" src="https://www.youtube.com/embed/cv7AnLI4Ank?autoplay=1&mute=1" frameBorder="0"></iframe>
+	  
+  </section>
+  <footer>
+    <article class="footer_column">
+      <h3>ABOUT</h3>
+      <img src="nash.jpg" alt="" width="403" height="558" class="cards"/>
+      <p> Nashville Abpi is a student of the Ateneo Junior High School currently studying in grade 9. She used to be part of the photojournalist team during her grade school days but has now taken interest in filmmaking. She enjoys watching horror movies and listens to R&B. Nash is an ISTP and doesn’t really like going out and socializing so she often spends her time alone. There isn’t any interesting facts about but she collects “photocards” as a coping mechanism. </p>
+    </article>
+    <article class="footer_column">
+      <h3>LOCATION</h3>
+      <img src="loc.png" alt="" width="403" height="558" class="cards"/>
+      <p> Ateneo de Davao University is a private Catholic basic and higher education institution run by the Philippine Province of the Society of Jesus in Davao City, Davao del Sur, Philippines. It was established in 1948 the Jesuits renamed the school to "Ateneo de Davao" after taking control. The university has five undergraduate schools, namely the School of Arts and Sciences, School of Business and Governance, School of Engineering and Architecture, School of Education and the School of Nursing. The university also runs a grade school and high school, both Junior High and Senior High. </p>
+    </article>
+  </footer>
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Sources</h2>
+    <p class="hero_header">Padre Pio</p>
+    <div class="button">Profile Institution</div>
+  </section>
+  <div class="copyright">&copy;2022 <strong>Padre Pio | Be Green Give Green</strong></div>
+</div>
+	<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
